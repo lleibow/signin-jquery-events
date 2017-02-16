@@ -1,1 +1,5 @@
-$('.modal').fadeIn();
+$(function(){
+  $('.signin').on('click', function () {
+    $('.modal').fadeIn();
+  })
+})
